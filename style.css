@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100');
+
+* {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(49, 49, 49);
+    height: 100vh;
+}
+
+.container {
+    height: 100%;
+    /* margin: 20px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#judul-web {
+    opacity: 0;
+    color: white;
+    font-weight: 100;
+    letter-spacing: 5px;
+    font-size: 10rem;
+    text-align: center;
+    transition: all 3s ease;
+}
